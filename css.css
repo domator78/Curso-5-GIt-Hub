@@ -4,6 +4,7 @@ Nos ayudan a mantener un historial de cambios;
 Nos ayudan a tener control sobre cada cambio en el código;
 Nos ayudan a que un cambio de una persona no influya en el cambio realizado por otra;
 Etc.
+---------------------------------------------------------------------------------------
 Qué es Git y cómo instalarlo
 Que con el comando git init pudimos crear un repositorio Git;
 Cómo analizar el estado de nuestro repositorio usando el comando git status.
@@ -15,4 +16,18 @@ Cómo traer commits de una branch a otra con git rebase
 Que git rebase no genera un commit de merge, lo que simplifica nuestro log;
 Cómo presenta Git los conflictos;
 Cómo resolver conflictos y conservar solo los cambios deseados con Git.
+-------------------------------------------------------------------------------------
+Que Git puede ayudarnos a deshacer cambios que no vamos a utilizar;
+Que, para deshacer un cambio antes de agregarlo para commit(con git add), podemos usar el comando git restore <archivos>;
+Que, para deshacer un cambio después de agregarlo paracommit, primero debemos ejecutar git restore --staged <archivos> y luego podemos deshacerlos con git restore <files>;
+Que, para revertir los cambios realizados en un commit, el comando git revert puede ser la solución;
+Que el comando git revert genera un nuevo commit informando que los cambios fueron deshechos;
+Que, para guardar un trabajo y reanudarlo más tarde, podemos usar git stash;
+Que, para ver qué cambios hay en el stash, podemos usar el comando git stash list;
+Que, con el comando git stash apply <número>, podemos aplicar un cambio específico al stash;
+Que el comando git stash drop <número> elimina un elemento determinado del stash;
+Que el comando git stash pop aplica y elimina el último cambio que se agregó alstash;
+Que git checkout sirve para dejar la copia del código de nuestra aplicación en el estado que queremos:
+git checkout <branch> deja el código en el estado de una branchcon el nombre <branch>;
+git checkout <hash> deja el código en el estado de commit con el hash <hash>.
  */
