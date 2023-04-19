@@ -7,5 +7,12 @@ Etc.
 Qué es Git y cómo instalarlo
 Que con el comando git init pudimos crear un repositorio Git;
 Cómo analizar el estado de nuestro repositorio usando el comando git status.
- DIS
+Que una branch (o rama) es una línea de commits separada, y que se puede usar para desarrollar funcionalidades independientes;
+Que con branches separadas, podemos evitar que el código de una funcionalidad interfiera con otra;
+Cómo traer el trabajo realizado en una branch a otra branch, como la master, usando el comando git merge;
+Que git merge genera un nuevo commit, informando que hubo una mezcla entre dos branches;
+Cómo traer commits de una branch a otra con git rebase
+Que git rebase no genera un commit de merge, lo que simplifica nuestro log;
+Cómo presenta Git los conflictos;
+Cómo resolver conflictos y conservar solo los cambios deseados con Git.
  */
